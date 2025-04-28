@@ -1,45 +1,38 @@
-body {
-    background-color: rosybrown;
-    font-family: Arial, sans-serif;
+body{
+    font-family: Arial,sans-serif;
+    background-color:#f0f8ff;
+    padding:20px;
   }
-  
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  h1{
+    text-align:center;
+     color: #333;
   }
-  
-  a {
-    text-decoration: none;
-    color: darkblue;
+  .todo-list{
+    list-style-type:none;
+    padding:0;
   }
-  
-  a:hover {
-    text-decoration: underline;
+  .todo-list li{
+    margin-bottom:20px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius:8px;
   }
-  
-  .business-card {
-    width: 300px;
-    background-color: lightyellow;
-    padding: 20px;
-    margin: 100px auto 0 auto;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px gray;
+  .sub-item-link {
+    text-decoration:none;
+    color: #1e90ff;
+    font-weight:bold;
   }
-  
-  .profile-image {
-    max-width: 100%;
-    border-radius: 45%;
-    height: 20%;
+  .sub-item {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 20px;
   }
-  
-  .social-media {
-    margin-top: 15px;
-  }
-  
-  h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
+  .sub-item-link:visited {
+    color: #6a5acd;}
+  .sub-item-link:hover {
+    color: #20b2aa;}
+  .sub-item-link:focus {
+    outline: 2px dashed #ff6347;}
+    .sub-item-link:active{
+    color: #ff4500;}
